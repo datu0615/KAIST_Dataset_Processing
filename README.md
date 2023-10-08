@@ -39,6 +39,9 @@ $ python img_folder.py
 $ python img_move.py
 $ python txt_move.py
 
+# final pre-processing
+$ python txt_img_check.py
+
 # file count
 $ python file_check.py
 ```
