@@ -27,7 +27,7 @@ $ python xml_anno_copy.py
 $ python remove_person?.py
 
 # xml to yolo format
-$ python xml2yolo.py
+$ python xml2yolo_v2.py
 
 # class unique
 $ python class_unique.py
