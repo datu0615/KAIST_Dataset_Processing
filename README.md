@@ -3,10 +3,10 @@ This repository provides code for pre-processing on the KAIST dataset.
 Dataset download can be downloaded through the KAIST dataset download provided below.  
 The pre-processing contents are as follows.  
 1. In the class sanitized in annotation, there is a class called "person?" and that part is removed.  
-2. If there is no announcement, remove the image.  
-3. Code for conversion to the yolo format is provided.  
+2. If there is no announcement, remove the image.
+3. Change the file name to {set_name}_{v_name}_{filename} format for the image and the announcement file
+4. Code for conversion to the yolo format is provided.  
 Thank you to those who created and provided the dataset.
-
 
 
 ## Introduction
