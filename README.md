@@ -5,7 +5,9 @@ The pre-processing contents are as follows.
 1. In the class sanitized in annotation, there is a class called "person?" and that part is removed.  
 2. If there is no announcement, remove the image.  
 3. Code for conversion to the yolo format is provided.  
-Thank you to those who created and provided the dataset.  
+Thank you to those who created and provided the dataset.
+
+
 
 ## Introduction
 By [Soonmin Hwang](https://soonminhwang.github.io), [Jaesik Park](http://jaesik.info/), [Namil Kim](https://www.namilkim.com/), [Yukyung Choi](https://www.rcv.sejong.ac.kr/members/professor), In So Kweon at RCV Lab. (KAIST) [[Website](http://multispectral.kaist.ac.kr)]
