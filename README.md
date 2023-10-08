@@ -8,6 +8,40 @@ The pre-processing contents are as follows.
 4. Code for conversion to the yolo format is provided.  
 Thank you to those who created and provided the dataset.
 
+```bash
+# Dataset Download
+$ git clone --recursive https://github.com/soonminhwang/rgbt-ped-detection
+$ cd rgbt-ped-detection
+
+$ bash ./data/scripts/download_dataset_from_onedrive.sh ${YOUR_PATH_TO_DOWNLOAD_DATASET}
+
+or
+
+$ bash ./data/scripts/download_dataset_from_nas.sh ${YOUR_PATH_TO_DOWNLOAD_DATASET}
+
+# Copy xml annotation files into one folder
+# Remove files if there is no information about objects
+$ python xml_anno_copy.py
+
+# Remove class "person?"
+$ python remove_person?.py
+
+# xml to yolo format
+$ python xml2yolo.py
+
+# class unique
+$ python class_unique.py
+
+# Copy images into one folder
+$ python img_folder.py
+
+# train test split
+$ python img_move.py
+$ python txt_move.py
+
+# file count
+$ python file_check.py
+```
 
 ## Introduction
 By [Soonmin Hwang](https://soonminhwang.github.io), [Jaesik Park](http://jaesik.info/), [Namil Kim](https://www.namilkim.com/), [Yukyung Choi](https://www.rcv.sejong.ac.kr/members/professor), In So Kweon at RCV Lab. (KAIST) [[Website](http://multispectral.kaist.ac.kr)]
